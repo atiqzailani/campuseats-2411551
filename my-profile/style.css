@@ -1,0 +1,125 @@
+/* ---------- Whole page ---------- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f4ee;
+  color: #1b2624;
+}
+/* ---------- Header and navigation ---------- */
+header {
+  background-color: #00685e;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #e8a33d;
+  text-decoration: underline;
+}
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #616e7c;
+  font-size: 14px;
+}
+/* ---------- Main content ---------- */
+main {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+}
+h2 {
+  color: #00685e;
+}
+.profile {
+  width: 160px;
+  border-radius: 50%;
+}
+.clock {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* ---------- Academic page ---------- */
+.schools li {
+  margin-bottom: 12px;
+}
+.logo {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+/* ---------- Schedule table ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #c9c3b4;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #00685e;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #eef5f3;
+}
+/* ---------- Links in content ---------- */
+main a {
+  color: #00685e;
+  font-weight: bold;
+}
+/* ---------- Contact form ---------- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+input,
+select,
+textarea {
+  padding: 8px;
+  border: 1px solid #c9c3b4;
+  border-radius: 6px;
+  font-size: 16px;
+}
+button {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #00685e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #12302d;
+}
+.notice {
+  background-color: #e3f7e8;
+  color: #1b7a3a;
+  padding: 12px;
+  border-radius: 6px;
+}
+.hidden {
+  display: none;
+}
