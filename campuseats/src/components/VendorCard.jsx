@@ -2,7 +2,7 @@ function VendorCard({ vendor, isSelected, onSelect }) {
   return (
     <button
       type="button"
-      className={isSelected ? "card vendor-card selected" : "card vendor-card"}
+      className={`card vendor-card ${isSelected ? "selected" : ""}`}
       onClick={() => onSelect(vendor.id)}
     >
       <div className="thumb" aria-hidden="true">
@@ -19,4 +19,5 @@ function VendorCard({ vendor, isSelected, onSelect }) {
     </button>
   );
 }
+
 export default VendorCard;

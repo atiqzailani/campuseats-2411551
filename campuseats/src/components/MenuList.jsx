@@ -1,8 +1,10 @@
 import MenuItemCard from "./MenuItemCard.jsx";
+
 function MenuList({ items, onAdd }) {
   if (items.length === 0) {
     return <p className="muted">No items on this menu yet.</p>;
   }
+
   return (
     <div className="grid">
       {items.map((item) => (
@@ -11,4 +13,5 @@ function MenuList({ items, onAdd }) {
     </div>
   );
 }
+
 export default MenuList;

@@ -1,4 +1,4 @@
-function MenuItemCard({ item }) {
+function MenuItemCard({ item, onAdd }) {
   return (
     <article className="card menu-card">
       <div className="thumb" aria-hidden="true">
@@ -18,4 +18,5 @@ function MenuItemCard({ item }) {
     </article>
   );
 }
+
 export default MenuItemCard;
