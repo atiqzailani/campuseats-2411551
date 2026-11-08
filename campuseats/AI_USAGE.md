@@ -23,3 +23,10 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for: I asked for a clear instruction to actually implement all the code, and fixed the problem of I accidentally put 'data' folder outside 'src' folder
 - What I kept, changed or rejected, and why: I kept all the answer because it easy to undersatnd and implement
 - One thing the AI got wrong and how I fixed it: -
+
+## Week 4
+
+- Tool(s): Gemini
+- What I asked for: I asked for a clear instruction and explaination implementing all the code, and fixed the problem of the localhost being white screen because of an error in the code
+- What I kept, changed or rejected, and why: I kept all the answer because it easy to understand and implement
+- One thing the AI got wrong and how I fixed it: -
